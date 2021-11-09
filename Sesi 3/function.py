@@ -117,6 +117,7 @@ printinfo( age=50, name="hacktiv8" )
 
 #11 varlength arguments
 # Function definition is here
+print('Contoh 11')
 def printinfo( arg1, *vartuple ):
 # def printinfo(arg1, arg2, arg3, arg4):
    '''This prints a variable passed arguments'''
@@ -188,8 +189,7 @@ def sum( arg1, arg2 ):
 sum( 10, 20 )
 print("Outside the function global total : ", total)
 
-#16 global vs local var with return statement
- Declare a global variable
+#16 global vs local var with return statement Declare a global variable
 total = 0
 
 # Create sum function
