@@ -32,6 +32,7 @@ def fahren_formula(type):
 loop = True
 while(loop):
     system('cls')
+    print(__doc__)
     print('Assignment 2 Python')
     print('Nama : Muchamad Muhadjir')
     print('Kode : FSDO001ONL018')
@@ -44,7 +45,7 @@ while(loop):
     pilih = int(input('Choose Menu (ONLY NUMBER): '))
     if pilih == 1:
         print('Conversion Menu: Kelvin to Celcius')
-        kelv= int(input('Input Kelvin: '))
+        kelv= float(input('Input Kelvin: '))
         celc= KC_formula(kelv, 'ktc')
         print(f'Result: {celc}° Celcius')
     elif pilih == 2:
